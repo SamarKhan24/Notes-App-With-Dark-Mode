@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --Text-color: #fff;
+    --primary-color: #9e02ffe5;
+    --secondry-color:rgb(111, 17, 212);
+}
+
+.dark-theme{
+    --primary-color: #000100da;
+    --secondry-color: rgba(136, 12, 225, 0.497);
+}
+
+#icon{
+    width: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color:var(--primary-color);
+    color: #fff;
+    padding-top:4%;
+    padding-left: 10%;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container h1 img{
+    width: 60px;
+}
+
+.container button img{
+    width: 25px;
+    margin-right:10px;
+}
+
+.container button{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 1px 3px 4px 2px purple;
+    background-color: var(--secondry-color);
+    padding: 14px 20px;
+    border: none;
+    outline: 0;
+    border-radius:40px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input-box{
+    position:relative;
+    width:100%;
+    max-width:500px;
+    min-height:150px;
+    background: #ffffff;
+    color: rgb(146, 59, 245);
+    font-weight:700;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+/*Responsiveness*/
+
+
+
+
+@media (max-width:271px) {
+    
+.input-box{
+    position:relative;
+    width:100%;
+    max-width:220px;
+    min-height:150px;
+    background: #ffffff;
+    color: rgb(146, 59, 245);
+    font-weight:700;
+    padding: 20px;
+    font-size: 17px;
+    margin: 20px 0;
+    outline: 0;
+    border: 0;
+    word-break: break-all;
+    border-radius: 20px;
+}
+
+.container #icon{
+    width: 4vh;
+    margin-left: 10px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+}
+
+
+@media (min-width:275px) {
+       
+    .container #icon{
+        width: 6vh;
+        margin-left: 10px;
+    }
+    }
+
+    
+@media (min-width:280px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:230px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+.container #icon{
+    width: 5vh;
+    margin-left: 10px;
+}
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+    
+
+
+@media (min-width:291px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:250px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .container #icon{
+    width: 5vh;
+    margin-left: 10px;
+}
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+    
+    
+@media (min-width:351px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:280px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    
+.container #icon{
+    width: 5vh;
+    margin-left: 10px;
+}
+    }
+    
+
+    
+@media (min-width:414px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:330px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+
+    
+.container #icon{
+    width: 6vh;
+    margin-left: 10px;
+}
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+    
+@media (min-width:810px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:550px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        word-break: break-all;
+        border: 0;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+    
+    
+@media (min-width:821px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:600px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+
+        
+@media (min-width:500px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:400px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+        
+@media (min-width:800px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:650px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+        
+@media (min-width:750px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:630px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+        
+@media (min-width:650px) {
+    
+    .input-box{
+        position:relative;
+        width:100%;
+        max-width:550px;
+        min-height:150px;
+        background: #ffffff;
+        color: rgb(146, 59, 245);
+        font-weight:700;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px 0;
+        outline: 0;
+        border: 0;
+        word-break: break-all;
+        border-radius: 20px;
+    }
+    
+    .input-box img{
+        width: 25px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    }
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
